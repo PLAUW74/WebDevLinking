@@ -6,8 +6,7 @@ A full-stack feedback collection application with a beautiful React frontend and
 
 ## ✨ Features
 
-- 🎨 **Modern UI** - Beautiful gradient design with responsive layout
-- 📝 **Easy Feedback Submission** - Simple form with name, email, and message fields
+- 🎨 **Modern UI** - Done using Figma
 - 💾 **Dual Storage** - Automatically saves to both SQLite database and CSV file
 - 🔄 **Real-time Updates** - Feedback list updates immediately after submission
 - 🌐 **CORS Enabled** - Frontend and backend communicate seamlessly
@@ -26,30 +25,6 @@ A full-stack feedback collection application with a beautiful React frontend and
 - **Flask-CORS** - Cross-origin resource sharing
 - **SQLAlchemy** - SQL database toolkit
 - **SQLite** - Lightweight database
-
-## 📁 Project Structure
-
-```
-FeedBackApp/
-├── frontend/                 # React frontend application
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── FeedbackForm.tsx
-│   │   │   └── FeedbackList.tsx
-│   │   ├── App.tsx
-│   │   └── main.tsx
-│   ├── package.json
-│   └── vite.config.ts
-│
-├── backend/                  # Flask backend (root directory)
-│   ├── app.py               # Main Flask application
-│   ├── models.py            # Database models
-│   ├── requirements.txt     # Python dependencies
-│   ├── feedback.csv         # CSV export (auto-generated)
-│   └── database.db          # SQLite database (auto-generated)
-│
-└── README.md
-```
 
 ## 🚀 Getting Started
 
